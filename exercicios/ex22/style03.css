@@ -7,7 +7,7 @@
 }
 
 div.bloco {
-    background-image: url(imagens/wallpaper002.jpg);
+    background-image: url(imagens/wallpaper003.jpg);
 
     height: 200px;
     border: 1px solid black;
@@ -25,5 +25,5 @@ div#q3 {
     background-position: right bottom;
 }   
 div#q4 {
-    background-position: center top ;
+    background-position: center center;
 }
