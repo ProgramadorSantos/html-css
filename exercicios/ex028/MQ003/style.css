@@ -19,13 +19,24 @@ h1 {
     text-align: center;
 }
 
-
+/* media para aparelho em modo retrato, em pé*/
 
 @media screen and (orientation: portrait) {
     body{
 
-        background-image: url(../imagens/cev-portrait.jpg);
+        background-image: url(../MQ003/imagens/cev-portrait.jpg);
         background-position: center bottom;
+    }
+    
+}
+
+/* media para aparelhos em modo paisagem na horizontal, deitado*/
+
+@media screen and (orientation: landscape) {
+    body{
+        background-image: url(../MQ003/imagens/cev-landscape.jpg);
+        background-position: left bottom;
+        
     }
     
 }
