@@ -1,8 +1,40 @@
 @charset "UTF-8";
 
 
-/* Todas as Medias Queries*/
+/* Todas as Medias Queries
+Pequenas telas: Até 600px
+celualar: até 600px até 768 ppx
+Tablet:768px até 992px
+Desktop:992px até 1200px
+Grandes telas: acima de 1200px
+
+
+*/
+
+
 
 @media print {
+    
+}
+@media screen and (min-width:768px) and (max-width:992px)  {
+    /*Versão para Tablet*/
+    body{
+        background: url(../imagens/back-tablet.jpg);
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    /*Versão para computadores Desktop*/
+
+    body{
+        background: url(../imagens/back-pc.jpg);
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    /*Versão para Telas grandes TV*/
+    body{
+        background: url(../imagens/back-tv.jpg);
+    }
     
 }
