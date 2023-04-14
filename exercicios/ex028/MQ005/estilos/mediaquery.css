@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+0-Dispositivos extra pequenos (telefones, 600px e abaixo)
+
+1-Dispositivos pequenos (tablets retrato e telefones grandes, 600px até 768)
+
+2-Dispositivos médios: tablets de paisagem, 768px até 992)
+
+3-Dispositivos grandes:laptops/desktops 992px até 1200)
+
+4-Dispositivos extra grandes (laptops e desktops grandes,1200px e acima) 
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display:none;
+    }
+    menu{
+        display: block;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    main {
+        width: 786px;
+    }
+}
