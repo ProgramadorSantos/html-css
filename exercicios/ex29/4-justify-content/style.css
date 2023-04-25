@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+body {
+    background-color: aqua;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.metade {
+    width: 50vw;
+}
+div.container {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    width: 50vw;
+    height: 200px;
+}
+div.caixas {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+}
+div.container2 {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    width: 50vw;
+    height: 200px;
+}
+div.flex-end {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+}
+div.container3 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 80vw;
+    height: 200px;
+}
+div.space-between {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+}
+div.container4 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 80vw;
+    height: 200px;
+}
+div.space-around {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+}
+div.container5{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 80vw;
+    height: 200px;
+}
+div.space-evenly{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+}
+
+

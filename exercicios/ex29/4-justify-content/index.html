@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Justify-Content</title>
 </head>
 <body>
-    
+    <h1>Justify-Content</h1>
+    <p class="metade">É uma propriedade di flex-box que define como os elementos filhos de um container flexivel devem ser distribuidos ao longo do eixo principal (main axis) do container.</p>
+    <p>Flex-Start: (Valor padrão)</p>
+    <div class="container">
+        <div class="caixas">1</div>
+        <div class="caixas">2</div>
+        <div class="caixas">3</div>
+        <div class="caixas">4</div>
+        
+    </div>
+    <h2>Flex-end</h2>
+    <p class="metade">Com o valor flex-end os elentos são alinhados no final do eixo principal do container</p>
+    <div class="container2">
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        
+    </div>
+    <h2>Space-between</h2>
+    <p class="metade">Com o valor Space-between os elementos são distribuidos igualmente ao longo do eixo principal do container, com o primeiro elemento no inicio do eixo principal e o ultimo elemento no final do eixo principal como no exemplo a abaixo: </p>
+    <div class="container3">
+        <div class="space-between">1</div>
+        <div class="space-between">2</div>
+        <div class="space-between">3</div>
+        <div class="space-between">4</div>
+    </div>
+    <h2>Space-arund</h2>
+    <p class="metade">Com o valor de Space-around os elementos são distribuidos igualmente ao longo do eixo principal do container, com espaçamento igual entre cada elemento</p>
+    <div class="container4">
+        <div class="space-around">1</div>
+        <div class="space-around">2</div>
+        <div class="space-around">3</div>
+        <div class="space-around">4</div>
+    </div>
+    <h2>Space-evenly</h2>
+    <p>Com o valor de Space-evenly, os elementos são distribuidos igualmente ao longo do eixo principal do container, com espaçamento igual antes do primeiro elemento e depois do ultimo elemento como no exemplo abaixo:</p>
+    <div class="container5">
+        <div class="space-evenly">1</div>
+        <div class="space-evenly">2</div>
+        <div class="space-evenly">3</div>
+        <div class="space-evenly">4</div>
+    </div>
+
 </body>
 </html>
