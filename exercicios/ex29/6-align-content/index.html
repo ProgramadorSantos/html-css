@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Align-Content</title>
+</head>
+<body>
+    <h1>Align-Content</h1>
+    <p class="metade">Essa propriedade é parecida com Justify-Content e que só vai fazer algum sentido se o flex container tiver mais de uma linha já que seu proposito é definir o alinhamento de flex items em diferentes linhas e como o espaço é distribuido no cross axis</p>
+    <p class="metade">Valor Padrão (Stretch): Os elementos filhos são esticados para preencher todo o espaço disponivel ao longo do eixo transversal do container:</p>
+    <div class="container">
+        <div class="caixas">1</div>
+        <div class="caixas">2</div>
+        <div class="caixas">3</div>
+        <div class="caixas">4</div>
+        <div class="caixas">5</div>
+        <div class="caixas">1</div>
+        <div class="caixas">2</div>
+        <div class="caixas">3</div>
+        <div class="caixas">4</div>
+        <div class="caixas">5</div>
+    </div>
+
+    <h2>Flex-Start</h2>
+    <p class="metade">Com esse valor os elementos serão alinhados no inicio do eixo transversal do container</p>
+    <div class="container2">
+        <div class="flex-start">1</div>
+        <div class="flex-start">2</div>
+        <div class="flex-start">3</div>
+        <div class="flex-start">4</div>
+        <div class="flex-start">5</div>
+        <div class="flex-start">1</div>
+        <div class="flex-start">2</div>
+        <div class="flex-start">3</div>
+        <div class="flex-start">4</div>
+        <div class="flex-start">5</div>
+    </div>
+    <h2>Flex-End</h2>
+    <p class="metade">Com esse valor, os elementos são alinhados no final do eixo transversal do container</p>
+    <div class="container3">
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        <div class="flex-end">5</div>
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        <div class="flex-end">5</div>
+    </div>
+    <h2>Center</h2>
+    <p class="metade">Com esse valor, os elementos são centralizados ao longo do eixo transversal do container </p>
+    <div class="container4">
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        <div class="flex-end">5</div>
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        <div class="flex-end">5</div>
+    </div>
+<h2>Space-Between</h2>
+<p class="metade">Com esse valor, os elementos são distibuidos igualmente ao longo do eixo transversal do caontainer, com o primeiro elemento no inicio do eixo transversal e o ultimo elemento no final do eixo transversal</p>
+<div class="container5">
+    <div class="space-between">1</div>
+    <div class="space-between">2</div>
+    <div class="space-between">3</div>
+    <div class="space-between">4</div>
+    <div class="space-between">5</div>
+    <div class="space-between">1</div>
+    <div class="space-between">2</div>
+    <div class="space-between">3</div>
+    <div class="space-between">4</div>
+    <div class="space-between">5</div>
+</div>
+<h2>Space-Around</h2>
+<p class="metade">Com esse valor, os elementos são distribuidos igualmente ao longo do eixo transversal do container, com o espaço igual entre cada elemento</p>
+<div class="container6">
+    <div class="space-around">1</div>
+    <div class="space-around">2</div>
+    <div class="space-around">3</div>
+    <div class="space-around">4</div>
+    <div class="space-around">5</div>
+    <div class="space-around">1</div>
+    <div class="space-around">2</div>
+    <div class="space-around">3</div>
+    <div class="space-around">4</div>
+    <div class="space-around">5</div>
+</div>
+<h2>Space-Evenly</h2>
+<p class="metade">Com esse valor, os elementos sãodistribuidos igualmente ao longo do eixo transversal do container, com espaçamento igual antes do primeiro elemento e depois do ultimo elemento</p>
+<div class="container7">
+    <div class="space-evenly">1</div>
+    <div class="space-evenly">2</div>
+    <div class="space-evenly">3</div>
+    <div class="space-evenly">4</div>
+    <div class="space-evenly">5</div>
+    <div class="space-evenly">1</div>
+    <div class="space-evenly">2</div>
+    <div class="space-evenly">3</div>
+    <div class="space-evenly">4</div>
+    <div class="space-evenly">5</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+body {
+    background-color: aqua;
+}
+
+.metade {
+    width: 50vw;
+}
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+}
+div.caixas {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+    line-height: 50px;
+}
+div.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.flex-start {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+div.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.flex-end {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+div.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.center {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+div.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.space-between {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+div.container6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.space-around {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+div.container7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+}
+div.space-evenly {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
