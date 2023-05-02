@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    width: 50vw;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.caixas {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    
+    
+
+}
+.caixas2 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+    
+    
+}
+.caixas3{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+}
+.caixas4{
+    
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 90px;
+}
+.caixas:nth-child(2) {
+    align-self: stretch;
+    
+}
+.caixas2:nth-child(3) {
+    align-self: flex-end;
+}
+.caixas3:nth-child(3) {
+    align-self: center;
+}
+.caixas4:nth-child(5) {
+    align-self: stretch;
+}
+
+.metade {
+    width: 50vw;
+}
