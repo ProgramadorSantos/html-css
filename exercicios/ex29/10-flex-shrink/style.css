@@ -25,5 +25,5 @@ body {
     font-size: 1.1em;
 }
 .container div:nth-child(2) {
-    flex-shrink: 3;
+    flex-shrink: 2;
 }
